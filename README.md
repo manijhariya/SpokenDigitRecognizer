@@ -10,7 +10,7 @@
 
 <br>
 <p align="center">
-  <img src="static/temp.jpeg" width="600" alt="accessibility text">
+  <img src="static/temp.jpg" width="600" alt="accessibility text">
 </p>
 <br>
 
