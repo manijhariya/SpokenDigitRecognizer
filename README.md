@@ -1,5 +1,5 @@
 ## Introduction
-* created a tool that can Recognize the English Spoken Digits
+* Created a tool that can Recognize the English Spoken Digits
 * Collected data from [FSDD](https://github.com/Jakobovski/free-spoken-digit-dataset)
 * Engineered Sounds to convert those sound files to images using STFT using matplotlib 
 * Engineered sound images to convert those sound files to csv/npy in array format
@@ -7,6 +7,13 @@
 * Approached for neural network based solution using CNN (Convolutional neural network) in keras
 * Approached for neural network based solution using ANN (Artificial neural newtork) in keras
 * Build a client facing API using flask
+
+<br>
+<p align="center">
+  <img src="static/temp.jpeg" width="600" alt="accessibility text">
+</p>
+<br>
+
 
 ## Code and Resources Used
 
@@ -27,6 +34,7 @@ After downloading the data, Scripted in python to clean the data so that it can 
 ## Model Building
 Data was ready to fit into the model. Before that i transformed the categorical variables into dummy variables AKA one hot encoded variables
 Using Linear Model
+
     * I tried easy scikit-learn approach with K- nearest neighbor model with train and test split with 0.2 value
     * With K-neighbor model i ended up with 74.4 % accuracy by scoring the model
 
